@@ -7,7 +7,7 @@ function App() {
       { label: 'Blue', value: 'blue'}
 
    ];
-   return <Dropdown />
+   return <Dropdown options={options} />
 }
 
 export default App;
