@@ -31,12 +31,13 @@ function Dropdown({ options, value, onChange }) {
            
     
         <div className='w-48 relative'>
-            <Panel className='flex justify-between items-center cursor-pointer ' onClick={handleClick}>{value?.label || 'Select...'}
+            <Panel className='flex justify-between items-center cursor-pointer ' onClick={handleClick}>
+                {value?.label || 'Select...'}
             <GoChevronDown />
             </Panel>
             
         {isOpen && (
-        <Panel className='absolute top-full '>{renderedOptions} </Panel >
+        <Panel className='absolute top-full'>{renderedOptions} </Panel>
         )}
  </div>
     );
