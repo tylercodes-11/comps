@@ -27,8 +27,12 @@ Here is an important agreement for you to accept
         <Button onClick={handleClick} primary>
             Open Modal
         </Button>
+    <p>
+    Eiusmod nostrud nisi excepteur id eu est culpa voluptate. Elit in non minim cillum sint ipsum in velit voluptate enim. Ad ut Lorem commodo quis velit in tempor magna eiusmod. Excepteur veniam irure et excepteur enim ad sunt adipisicing mollit Lorem esse magna labore.
+    </p>
+    
     {showModal && modal}
-
+       
     </div>
     );
 }
