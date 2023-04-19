@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../pics"
+		},
+		{
+			"path": "../books"
+		},
+		{
+			"path": "../roots_techproj/js-projects/recipeapp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "comps"
+	}
+}
