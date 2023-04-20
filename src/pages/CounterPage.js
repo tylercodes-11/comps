@@ -1,9 +1,9 @@
 import Button from '../components/Button';
 import { useState } from 'react';
 
-function CounterPage({ initialCount }) {
-const [count, setCount] = useState(initialCount);
 
+function CounterPage({ initialCount }) {
+const [count, setCount] = useState(Number(initialCount));
 const increment = () => {
     setCount(count + 1);
 };
